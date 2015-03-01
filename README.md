@@ -1,5 +1,7 @@
 # Takiuino - the arduino board for ME!
 
+Just a WIP atm, look in the eagle directory and you can see the boards and their OSHPark links
+
 The main site for the takiuino is here: http://pjr.cc/tu/ (which is comming soon (tm))
 
 ## Thanks go to....
