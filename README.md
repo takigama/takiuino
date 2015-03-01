@@ -7,8 +7,6 @@ The main site for the takiuino is here: http://pjr.cc/tu/ (which is comming soon
 Maniacbug - for his work on the 1284 originally. (https://maniacbug.wordpress.com/2011/11/27/arduino-on-atmega1284p-4/
 The Optiboot folk - for making the awesome optiboot code! (https://code.google.com/p/optiboot/)
 
-I include both their source repos (without the .git, etc) here to meet my obligations under the GPL
-
 ## What is it?
 
 A fork of Maniacbug's mighty1284 code base, also includes the 644p code.
