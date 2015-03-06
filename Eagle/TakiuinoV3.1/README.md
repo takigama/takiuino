@@ -1,4 +1,4 @@
-# Takuino V3 - the final countdown
+# Takuino V3.1 - the final countdown
 
 Not quite here yet cause im a bit lazy sometimes.
 
