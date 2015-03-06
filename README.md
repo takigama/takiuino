@@ -17,7 +17,7 @@ I've removed everything except the optiboot options (for now, the others may ret
 
 ## What do you need?
 
-First you need the board, which is on oshpark
+First you need the board, which is on oshpark, https://oshpark.com/shared_projects/2aDDN1lS
 
 Then you need to make the board (its pretty simple)
 
