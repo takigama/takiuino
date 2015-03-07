@@ -42,7 +42,37 @@ image of the actual board and components that go on it. But for the impatient th
 goes with the printed circle on the board
 
 Personally i find the resonator the hardest bit to solder, but doesnt take too much to long to get the hang
-of it. After that, hook up an ASP and go program 
+of it. After that, hook up an ASP and go program it directly with code, or use a bootloader and program via
+the serial pinouts (note you'll need a USB to uart thingo).
+
+If it all works, L3 should come on when power to the board is applied and you can control L2 via pummelling
+pin 23 (which is what L2 is connected to). The following code should work:
+
+```
+int ledPin = 23;                 // LED connected to digital pin 13
+int tLat = 1024;
+
+void setup()
+{
+  pinMode(ledPin, OUTPUT);      // sets the digital pin as output
+}
+
+void loop()
+{
+  
+  
+  digitalWrite(ledPin, HIGH);   // sets the LED on
+  delay(tLat);                  // waits for a second
+  digitalWrite(ledPin, LOW);    // sets the LED off
+  delay(tLat);                  // waits for a second
+  
+  
+  tLat = tLat/1.2;
+  if(tLat < 2) tLat = 1024;
+}
+```
+This should cause the L2 led to start as a slow on/off then ramp up and eventually stay on, then reset and start again.
+
 
 ## installation
 
