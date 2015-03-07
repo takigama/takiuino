@@ -2,7 +2,7 @@
 
 Just a WIP atm, look in the eagle directory and you can see the boards and their OSHPark links
 
-The main site for the takiuino is here: http://pjr.cc/tu/ (which is comming soon &trade)
+The main site for the takiuino is here: http://pjr.cc/tu/ (which is comming soon)
 
 ## Thanks go to....
 
