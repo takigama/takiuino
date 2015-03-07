@@ -67,8 +67,9 @@ void loop()
   
   digitalWrite(ledPin, HIGH);   // sets the LED on
   delay(tLat);                  // waits for a bit
-  digitalWrite(LED, LOW);       // sets the LED off - note that i use LED here which is defined
-				// in the hardware library for this pin
+  digitalWrite(LED, LOW);       // sets the LED off
+  // note that i use "LED" above, which is defined 
+  // in the hardware library for this pin
   delay(tLat);                  // waits for a bit
   
   
