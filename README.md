@@ -25,12 +25,12 @@ First you need the board, which is on oshpark [here](https://oshpark.com/shared_
 
 Then you need to make the board (its pretty simple)
 
-First - decide what you need, if your powering from a stable 5v source, you dont need the 5v REG
-if you dont need a 3.3v line, you can drop the 3.3v REG as well (and its capacitor).
+1. decide what you need, if your powering from a stable 5v source, you dont need the 5v REG.
+If you dont need a 3.3v line, you can drop the 3.3v REG as well (and its capacitor).
 
-Second - the polarized components (2 caps, 2 leds) have their positive lines marked
+2. the polarized components (2 caps, 2 leds) have their positive lines marked
 
-Third - Conquer the world. They'll be a better written tutorial coming soon, as well as an annotated
+3. Conquer the world. They'll be a better written tutorial coming soon, as well as an annotated
 image of the actual board and components that go on it. But for the impatient the components are as follows:
 
 - C1, C2: 10uf Tant CAP (16v rated)
