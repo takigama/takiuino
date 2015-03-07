@@ -44,10 +44,10 @@
 
 
 // backside pin def's
-static const uint8_t PWM_1 = 12;
-static const uint8_t PWM_2 = 13;
-static const uint8_t PWM_3 = 14;
-static const uint8_t PWM_4 = 15;
+static const uint8_t PWM1 = 12;
+static const uint8_t PWM2 = 13;
+static const uint8_t PWM3 = 14;
+static const uint8_t PWM4 = 15;
 
 // second serial port
 static const uint8_t RX1 = 10;
@@ -58,25 +58,25 @@ static const uint8_t LED = 23;
 static const uint8_t LED1 = 23;
 
 // general analog ports
-static const uint8_t GA_1 = 24;
-static const uint8_t GA_2 = 25;
-static const uint8_t GA_3 = 26;
-static const uint8_t GA_4 = 27;
-static const uint8_t GA_5 = 28;
-static const uint8_t GA_6 = 29;
-static const uint8_t GA_7 = 30;
-static const uint8_t GA_8 = 31;
+static const uint8_t GA1 = 24;
+static const uint8_t GA2 = 25;
+static const uint8_t GA3 = 26;
+static const uint8_t GA4 = 27;
+static const uint8_t GA5 = 28;
+static const uint8_t GA6 = 29;
+static const uint8_t GA7 = 30;
+static const uint8_t GA8 = 31;
 
 // general digital ports
-static const uint8_t GD_1 = 18;
-static const uint8_t GD_2 = 19;
-static const uint8_t GD_3 = 20;
-static const uint8_t GD_4 = 21;
-static const uint8_t GD_5 = 22;
-static const uint8_t GD_6 = 0;
-static const uint8_t GD_7 = 1;
-static const uint8_t GD_8 = 2;
-static const uint8_t GD_9 = 3;
+static const uint8_t GD1 = 18;
+static const uint8_t GD2 = 19;
+static const uint8_t GD3 = 20;
+static const uint8_t GD4 = 21;
+static const uint8_t GD5 = 22;
+static const uint8_t GD6 = 0;
+static const uint8_t GD7 = 1;
+static const uint8_t GD8 = 2;
+static const uint8_t GD9 = 3;
 
 // end backside pin defs
 
@@ -88,7 +88,6 @@ static const uint8_t SCK  = 7;
 
 static const uint8_t SDA = 17;
 static const uint8_t SCL = 16;
-static const uint8_t LED = 7;
 
 static const uint8_t A0 = 24;
 static const uint8_t A1 = 25;

@@ -99,3 +99,10 @@ either side of the board (hence whey they're both there).
 
 Lastly, I needed something small (round the pro mini/micro size) with two serial ports, the ability to run
 an OLED screen (which requires quite some memory) along with some other memory sapping parts
+
+## TODO
+
+- I think I may regret the position of the reset switch as its sitting very close to the resonator (i'll know once
+the v3 prints arrive from OSH Park)
+- Write a test harness and some programs to check that the pins all work
+
