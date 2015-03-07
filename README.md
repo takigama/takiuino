@@ -20,6 +20,9 @@ I've removed everything except the optiboot options (for now)
 
 First you need the board, which is on oshpark [here](https://oshpark.com/shared_projects/BunCIt50)
 
+![Top](http://pjr.cc/tu/op_top.png)
+![Bottom](http://pjr.cc/tu/op_bottom.png)
+
 Then you need to make the board (its pretty simple)
 
 First - decide what you need, if your powering from a stable 5v source, you dont need the 5v REG
