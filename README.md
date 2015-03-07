@@ -53,7 +53,7 @@ If it all works, L3 should come on when power to the board is applied and you ca
 pin 23 (which is what L2 is connected to). The following code should work:
 
 ```
-int ledPin = 23;                 // LED connected to digital pin 13
+int ledPin = 23;                 // LED connected to digital pin 23
 int tLat = 1024;
 
 void setup()
@@ -66,9 +66,10 @@ void loop()
   
   
   digitalWrite(ledPin, HIGH);   // sets the LED on
-  delay(tLat);                  // waits for a second
-  digitalWrite(ledPin, LOW);    // sets the LED off
-  delay(tLat);                  // waits for a second
+  delay(tLat);                  // waits for a bit
+  digitalWrite(LED, LOW);       // sets the LED off - note that i use LED here which is defined
+				// in the hardware library for this pin
+  delay(tLat);                  // waits for a bit
   
   
   tLat = tLat/1.2;
@@ -78,7 +79,7 @@ void loop()
 This should cause the L2 led to start as a slow on/off then ramp up and eventually stay on, then reset and start again.
 
 
-## installation
+## Installation
 
 copy the contents of the arduino-ide folder into you arduino ide's hardware directory
 
@@ -92,7 +93,7 @@ Second reason was cause I could, always wanted to design my own board for a micr
 out well.
 
 Third was that I wanted a board with more useful pinout info, not many of the smaller boards have any markings
-to tell you which channel is a pwm line, etc. The code (will) also allow you to call pins via the names on
+to tell you which channel is a pwm line, etc. The code also allow you to call pins via the names on
 either side of the board (hence whey they're both there).
 
 Lastly, I needed something small (round the pro mini/micro size) with two serial ports, the ability to run
