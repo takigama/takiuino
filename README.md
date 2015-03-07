@@ -7,6 +7,7 @@ The main site for the takiuino is here: http://pjr.cc/tu/ (which is comming soon
 ## Thanks go to....
 
 Maniacbug - for his work on the 1284 originally. (https://maniacbug.wordpress.com/2011/11/27/arduino-on-atmega1284p-4/
+
 The Optiboot folk - for making the awesome optiboot code! (https://code.google.com/p/optiboot/)
 
 ## What is it?
