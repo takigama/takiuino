@@ -25,8 +25,8 @@ First you need the board, which is on oshpark [here](https://oshpark.com/shared_
 
 Then you need to make the board (its pretty simple)
 
-1. decide what you need, if your powering from a stable 5v source, you dont need the 5v REG.
-If you dont need a 3.3v line, you can drop the 3.3v REG as well (and its capacitor).
+1. decide what you need, if your powering from a stable 5v source, you dont need the 5v REG (though keeping the 5v cap, C1, isnt a bad idea)
+If you dont need a 3.3v line, you can drop the 3.3v REG as well (and its capacitor, C2).
 
 2. the polarized components (2 caps, 2 leds) have their positive lines marked
 
