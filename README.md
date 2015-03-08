@@ -18,11 +18,16 @@ I've removed everything except the optiboot options (for now)
 
 ## What do you need?
 
-First you need the board, which is on oshpark [here](https://oshpark.com/shared_projects/BunCIt50)
+First you need the board, which is on oshpark [here](https://oshpark.com/shared_projects/BunCIt50) for V3.1 or
+[here](https://oshpark.com/shared_projects/wfCfnxof) for V3.2. The only difference between them is how the ICSP and reset swtiches are layed out.
 
+# V3.1
 ![Top](http://pjr.cc/tu/op_top.png)
 ![Bottom](http://pjr.cc/tu/op_bottom.png)
 
+# V3.2
+![Top](http://pjr.cc/tu/t32_top.png)
+![Bottom](http://pjr.cc/tu/t32_bottom.png)
 Then you need to make the board (its pretty simple)
 
 1. decide what you need, if your powering from a stable 5v source, you dont need the 5v REG (though keeping the 5v cap, C1, isnt a bad idea)
