@@ -9,6 +9,9 @@ int tLat = 100;
 
 void setup()
 {
+  Serial.begin(115200);
+
+  pinMode(LED, OUTPUT);
   for(int i=0; i<28; i++) {
     pinMode(i, OUTPUT);      // sets the digital pin as output
   }
@@ -18,11 +21,22 @@ void loop()
 {
   
   int lpin=0;
+  bool ledPin = false;
   
   
   for(int i=0; i<28; i++) {
+    Serial.print("punching pin: ");
+    Serial.println(walking[i]);
+    
+    if(ledPin) {
+      ledPin = false;
+      digitalWrite(LED, HIGH);
+    } else {
+      ledPin = true;
+      digitalWrite(LED, LOW);
+    }
     digitalWrite(lpin, LOW);
-    digitalWrite(i, HIGH);
+    digitalWrite(walking[i], HIGH);
     lpin = i;
     delay(tLat);
   }
