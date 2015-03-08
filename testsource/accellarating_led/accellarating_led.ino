@@ -33,13 +33,10 @@ void loop()
   
   if(dirUp) {
     tLat = tLat*1.2;
-//    if(tLat == 1) tLat = 2;
   } else {
     tLat = tLat/1.2;
   }
   Serial.print("tlat now: ");
   Serial.println(tLat);
-//  tLat = tLat/1.1;
-//  if(tLat < 2) tLat = 1024;
   
 }
