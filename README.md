@@ -1,6 +1,7 @@
 # Takiuino - the arduino compatible board for ME!
 
-Just a WIP atm, look in the eagle directory and you can see the boards and their OSHPark links
+Just a WIP atm, look in the eagle directory and you can see the boards and their OSHPark links, though v2.0 has now
+been tested against both arduino v1.0.x and arduino v1.5.7 and v1.6.0.
 
 The main site for the takiuino is here: http://pjr.cc/tu/ (which is comming soon)
 
